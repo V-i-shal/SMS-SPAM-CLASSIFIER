@@ -14,3 +14,4 @@ A machine learning-based web application that classifies SMS messages as **Spam*
 git clone https://github.com/V-i-shal/SMS-SPAM-CLASSIFIER.git
 cd SMS-SPAM-CLASSIFIER
 python app.py
+

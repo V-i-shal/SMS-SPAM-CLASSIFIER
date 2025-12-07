@@ -41,6 +41,3 @@ SMS-SPAM-CLASSIFIER/
 
 ---
 
-## ▶️ How to Run the Project
-
-### 1️⃣ Clone the repository

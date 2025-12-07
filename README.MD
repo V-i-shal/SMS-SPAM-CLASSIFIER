@@ -1,17 +1,46 @@
 # 📱 SMS Spam Classifier
 
-A machine learning-based web application that classifies SMS messages as **Spam** or **Not Spam** using natural language processing and a Naive Bayes classifier.
+A machine learning-based web application that classifies SMS messages as **Spam** or **Not Spam** using Natural Language Processing (NLP) techniques and a trained machine learning model. The project includes end-to-end text preprocessing, feature extraction using TF-IDF, model training, evaluation, and a Streamlit-based UI for real-time SMS classification.
+
+---
 
 ## 🚀 Features
-- Classifies SMS messages in real-time
-- Uses pre-trained ML model (`model.pkl`)
-- Uses TF-IDF vectorizer (`vectorizer.pkl`)
-- Simple Python-based classifier
+- Real-time SMS spam detection
+- Pre-trained ML model stored as `model.pkl`
+- TF-IDF vectorizer stored as `vectorizer.pkl`
+- Clean and interactive Streamlit web interface
+- Uses classic ML algorithms (Naive Bayes / Logistic Regression)
+- Lightweight and fast text classification
 
-## 📦 How to Run
+---
 
-```bash
-git clone https://github.com/V-i-shal/SMS-SPAM-CLASSIFIER.git
-cd SMS-SPAM-CLASSIFIER
-python app.py
+## 📊 Project Overview
+This project solves the problem of identifying fraudulent or promotional SMS messages. It uses NLP preprocessing steps like tokenization, stopword removal, punctuation removal, stemming, and converts text into TF-IDF vectors. A supervised learning model is trained to classify messages as **Spam** or **Ham** with high accuracy.
 
+---
+
+## 🧠 Tech Stack
+- **Python**
+- **scikit-learn**
+- **Pandas, NumPy**
+- **NLTK**
+- **Streamlit**
+
+---
+
+## 📂 Project Structure
+
+SMS-SPAM-CLASSIFIER/  
+│── app.py                  → Streamlit web application  
+│── model.pkl               → Trained ML model  
+│── vectorizer.pkl          → TF-IDF vectorizer  
+│── spam.csv                → Dataset  
+│── notebook.ipynb          → Model training notebook  
+│── requirements.txt        → Dependencies  
+└── README.md               → Project documentation  
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
